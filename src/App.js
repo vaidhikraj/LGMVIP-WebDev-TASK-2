@@ -2,7 +2,6 @@ import axios from 'axios';
 import { useState } from 'react';
 import './App.css';
 import Firsthalf from './components/Firsthalf';
-import Footer from './components/Footer';
 import Secondhalf from './components/Secondhalf';
 
 function App() {
@@ -32,7 +31,7 @@ function App() {
     <div>
       <Firsthalf getusers={getusers}/>
       <Secondhalf content={users} e={e} lo={lo}/>
-      <Footer />
+      
     </div>
   );
 }

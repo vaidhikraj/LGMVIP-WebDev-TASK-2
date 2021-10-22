@@ -16,8 +16,8 @@ function Secondhalf({content,e,lo}) {
                 </div>
                 ))
                 :lo?<Loader
-                type="Puff"
-                color="red"
+                type="MutatingDots"
+                color="blue"
                 height={100}
                 width={100}
                 timeout={2000}
